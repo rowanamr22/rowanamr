@@ -1,0 +1,70 @@
+body 
+{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 255, 255);
+}
+header {
+    text-align: center;
+    padding : 5px;
+    background-color: aliceblue;
+    border-radius: 15px;
+
+
+}
+header img {
+    width : 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin-bottom: 30px;
+}
+
+section{
+    margin : 30px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+}
+.image-box{
+width: 250px;
+height: 250px;
+border: 70px solid whitesmoke;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: lightgray;
+
+
+}
+
+.image-box img{
+    width: 300px;
+    height: 300px;
+    border: 100px;
+    object-fit: cover;
+    
+}
+
+
+
+
+
+h1, h2 {
+   color: black; 
+}
+
+#bio , #mycoursesandemployment {
+    background-color: lavender;
+    padding: 15px;
+    border-style:groove;
+    border-radius: 15px;
+
+}
+
+footer {
+background-color: aliceblue;
+text-align: left;
+padding: 10px;
+
+
+}
